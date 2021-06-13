@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zola Architect</title>
+
+    <!-- CSS Styling Sheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awsom -->
+    <script src="https://kit.fontawesome.com/df30778794.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <section id="nav-bar">
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-coloring">
+            <a class="navbar-brand" href="#">A to Z</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+
+    <!-- Opening -->
+
+    <section id="opening">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="opening-div-1 col-md-6">
+                    <h1>Zola Architect</h1>
+                    <p class="opening-subtitle">We're here to design your <span class="opening-life-word">LIFE</span></p>
+                </div>
+                <div class="col-md-6">
+                    <img class="opening-img" src="images/opening-img1.png" alt="facny-room">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+        <div class="row">
+            <div class="feature-box col-lg-4">
+                <i class="icon fas fa-ruler-combined"></i>
+                <h3>Planning</h3>
+                <p class="features-p">Create interior designs for professional workplaces in a variety of settings, from small offices to large buildings.</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <i class="icon fas fa-drafting-compass"></i>
+                <h3>Drawing</h3>
+                <p class="features-p">Interior designers use their sense of style, to develop designs that look great and are aesthetically pleasing.</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <i class="icon fas fa-hard-hat"></i>
+                <h3>Constructing</h3>
+                <p class="features-p">Construct your dream home/workspace and make it real.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+
+    <section id="products">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>Modern Design</h2>
+                    <img class="product-img" src="images/modern-img.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <h2>Minimalist Design</h2>
+                    <img class="product-img" src="images/minimalist-img.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <h2>Industrial Design</h2>
+                    <img class="product-img" src="images/industrial-img.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <h2>Classical Design</h2>
+                    <img class="product-img" src="images/classic-img.jpg" alt="Third slide">
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- About Us -->
+
+    <section id="about-us">
+
+        <i class="about-us-icon far fa-address-card"></i>
+        <h3 class="about-us-heading">Zola Fadel is a professional Interior Designer, and expert in the field.</h3>
+        <p>Graphic Design Coordinator and Instructor in 3 Local College</p>
+        <p>Freelancer CAD Tutor</p>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <i class="fab fa-twitter footer-icons"></i> <i class="fab fa-facebook-f footer-icons"></i> <i class="fab fa-instagram footer-icons"></i> <i class="fas fa-envelope footer-icons"></i>
+        <p>© Copyright 2021 Zola Fadel</p>
+
+    </footer>
+
+</body>
+
+
+</html>

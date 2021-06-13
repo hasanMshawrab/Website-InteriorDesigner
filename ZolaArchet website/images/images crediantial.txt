@@ -1,0 +1,14 @@
+# opening-img:
+Photo by <a href="https://unsplash.com/@spacejoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Spacejoy</a> on <a href="https://unsplash.com/s/photos/interior-designer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+#modern-img:
+Photo by <a href="https://unsplash.com/@andreaedavis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrea Davis</a> on <a href="https://unsplash.com/s/photos/modern-interior-designer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+#classic-img:
+Photo by <a href="https://unsplash.com/@rodreis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rodrigo dos Reis</a> on <a href="https://unsplash.com/s/photos/classic-rooms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+#minialist-img:
+Photo by <a href="https://unsplash.com/@benchaccounting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bench Accounting</a> on <a href="https://unsplash.com/s/photos/minimalism-rooms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+#-industrial-img:
+Photo by <a href="https://unsplash.com/@awcreativeut?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Winger</a> on <a href="https://unsplash.com/s/photos/industrial-rooms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
